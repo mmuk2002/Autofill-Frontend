@@ -1,70 +1,177 @@
-# Getting Started with Create React App
+POSSIBLE THINGS TO DO:
+-Review the terms of service and privacy policy
+-Improve placement of add/delete buttons
+-Review background code and switch variable names
+{
+"email": "mmuk2002@gmail.com",
+"active": true,
+"first_name": "Mohammed",
+"last_name": "Khan",
+"birthday": "2002-10-28",
+"created_at": "2022-08-31T19:04:48.836923",
+"phone": "+12245397209",
+"location": "Nashville, TN, USA",
+"work_auth": true,
+"sponsorship": false,
+"disability": true,
+"veteran": false,
+"lgbt": false,
+"gender": 1,
+"ethnicity": [
+"Middle Eastern",
+"South Asian"
+],
+"linkedin": "https://www.linkedin.com/in/mohammed-meraj-uddin-khan-9309321a4/",
+"github": null,
+"portfolio": null,
+"additional_url": null,
+"id": "2ac4d507-3722-4b21-8d65-10e009b2b040",
+"resume": "https://www.googleapis.com/download/storage/v1/b/simplify-resumes/o/2ac4d507-3722-4b21-8d65-10e009b2b040%2F1674863020.pdf?alt=media",
+"resume_preview": "https://storage.googleapis.com/simplify-resumes/2ac4d507-3722-4b21-8d65-10e009b2b040/1674863020.pdf",
+"resume_download": "https://www.googleapis.com/download/storage/v1/b/simplify-resumes/o/2ac4d507-3722-4b21-8d65-10e009b2b040%2F1674863020.pdf?alt=media",
+"resume_last_uploaded": "2023-01-27T23:43:40.752632",
+"preferences_completed": true,
+"onboarding_completed": true,
+"education": [
+{
+"degree": 1,
+"gpa": 3.64,
+"start_month": 8,
+"start_year": 2021,
+"grad_month": 5,
+"grad_year": 2025,
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"education": {
+"name": "Vanderbilt University",
+"lever": "Vanderbilt University",
+"greenhouse": "Vanderbilt University",
+},
+"major": {
+"name": "Computer Science",
+"greenhouse": "Computer Science"
+}
+}
+],
 
-## Available Scripts
+"experience": [
+{
+"title": "Backend Developer",
+"type": 1,
+"start_month": 1,
+"start_year": 2023,
+"currently_working": true,
+"end_month": null,
+"end_year": null,
+"description": "Working on building a CRM application, utilizing MongoDB for data storage and management\nImplementing new features, improving performance, and solving complex technical issues on the project",
+"company": {
+"name": "UpCancer",
+}
+},
+{
+"title": "Machine Learning Research Intern",
+"type": 1,
+"start_month": 6,
+"start_year": 2022,
+"currently_working": false,
+"end_month": 8,
+"end_year": 2022,
+"description": "Created software using python to automate the data pre-processing required to train Machine Learning models (used the TensorFlow framework)\nAnalyzed the Ford Autonomous vehicle dataset and trained ML models to predict steering angle changes based on input sensor data.\nTrained and optimized different ML models based on the Dave2 Keras neural network by Nvidia to see which one performs best under any given dataset\nTrained and evaluated the performance of assurance monitors in assessing the performance of ML models when given out of distribution data",
+"company": {
+"name": "Institute for Software Integrated Systems, Vanderbilt University",
+}
+},
+{
+"company_id": "17e38cdd-afb8-43f0-aad5-5faf88ccb795",
+"location": "Dubai - United Arab Emirates",
+"title": "Business Research Assistant",
+"type": 1,
+"start_month": 5,
+"start_year": 2019,
+"currently_working": false,
+"end_month": 5,
+"end_year": 2019,
+"description": "Analysed historical data from fortune 500 companies to answer the question: do successful CEOs need MBAs?\nGathered the data through web scraping\nPerformed statistical, qualitative, and quantitative analysis.",
+"id": "ffd7fa97-3a00-4294-8344-cece80868aa5",
+"company": {
+"name": "Curtin University Dubai",
+"id": "17e38cdd-afb8-43f0-aad5-5faf88ccb795",
+"logo": "https://storage.googleapis.com/simplify-imgs/company/default/logo.png",
+"description": null,
+"short_description": null,
+"url": null,
+"twitter": null,
+"crunchbase": null,
+"linkedin": null,
+"year_founded": null,
+"company_size": null,
+"benefits": null,
+"values": null,
+"url_safe_slug": null,
+"verified": false,
+"featured_recruiter": null,
+"featured_recruiter_info": null,
+"featured_title": null
+}
+}
+],
 
-In the project directory, you can run:
+"skill": [
+{
+"skill": {
+"name": "Data Structures & Algorithms"
+}
+},
+{
+"skill": {
+"name": "C/C++/C#"
+}
+},
+{
+"length": 0,
+"preferred": false,
+"skill": {
+"name": "Git",
+"description": null,
+"id": "55f81a94-6563-49f6-8d65-6c41d1c7e8eb"
+}
+},
+{
+"length": 0,
+"preferred": true,
+"skill": {
+"name": "HTML/CSS",
+"description": null,
+"id": "f43e477a-5fac-408f-b25e-c2f8f724975f"
+}
+},
+{
+"length": 0,
+"preferred": true,
+"skill": {
+"name": "Java",
+"description": null,
+"id": "7879b1c5-3b3f-4258-9a51-7473b42c1d2d"
+}
+},
+{
+"length": 0,
+"preferred": true,
+"skill": {
+"name": "Tensorflow",
+"description": null,
+"id": "5297b037-9c52-48cd-828b-1c5c6dbbd00a"
+}
+},
+{
+"length": 0,
+"preferred": false,
+"skill": {
+"name": "Python",
+"description": null,
+"id": "338bf00e-d70d-4541-b1ff-30952db24716"
+}
+}
+],
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+"interest": []
+}

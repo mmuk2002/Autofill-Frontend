@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -21,7 +20,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App-link {
@@ -35,4 +34,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.shape-container {
+  position: relative;
+}
+
+.gradient-left,
+.gradient-right {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+}
+
+.gradient-left {
+  left: 0;
+  background: linear-gradient(to right, #ffffff, #f5f5f5);
+}
+
+.gradient-right {
+  right: 0;
+  background: linear-gradient(to left, #ffffff, #f5f5f5);
 }

@@ -2,3 +2,4 @@ Here is the source code for the frontend of our website for job application auto
 If you want to build the code, make sure you do npm install react after cloning in order to download react, and then
 do npm run build to generate the built files, or npm start to view the webpage without building.
 
+If you simply want to view the webpage, just open index.html from inside the build folder after cloning.
